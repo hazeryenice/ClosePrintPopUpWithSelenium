@@ -17,11 +17,10 @@ public class CancelPrintScript extends PageBase {
 	    }
 
 	public static void cancelPrint() throws IOException {
-	//jenkins'te çalisirsa alttaki susturulacak
-	//Runtime.getRuntime().exec("C:\\Users\\Gun\\Desktop\\CancelPrintScript.exe");
-	Runtime.getRuntime().exec("C:\\Users\\guncetest.otomasyon\\Desktop\\CancelPrintScript.exe");	
+	
+	Runtime.getRuntime().exec("ENTER FILE LOCATION HERE" + "\\CancelPrintScript.exe");	
 	sleep(3);
-	//driver.close();
+	
 	}
 	
 }
